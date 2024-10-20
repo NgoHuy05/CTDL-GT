@@ -18,6 +18,7 @@ int main() {
             cout << a[i] << " ";
         }
     }
+    
     system("pause");
     return 0;
 }
