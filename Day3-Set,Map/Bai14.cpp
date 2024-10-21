@@ -6,9 +6,7 @@
 // 4 x : In ra giá trị của phần từ lớn nhất <= x trong mảng A[], nếu không tồn tại phần tử này thì in ra -1.
 
 
-#include <iostream>
-#include <set>
-#include <algorithm>
+#include <bits/stdc++.h>
 
 using namespace std;
 
