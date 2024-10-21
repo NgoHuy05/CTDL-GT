@@ -1,4 +1,4 @@
-// Bài 15. Set vs Lower_bound, Upper_bound
+// Bài 14. Set vs Lower_bound, Upper_bound
 // Cho 1 mảng A[] gồm N số nguyên, 28tech cung cấp cho bạn các thao tác sau :
 // 1 x : Thêm phần tử x vào mảng A[]
 // 2 x : Xóa phần tử x khỏi mảng A[] nếu x tồn tại trong mảng, và nếu x xuất hiện nhiều lần bạn chỉ xóa đi 1 phần tử duy nhất.
@@ -50,6 +50,6 @@ int main() {
             }
         }
     }
-    
+    system("pause");
     return 0;
 }
