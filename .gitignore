@@ -1,1 +1,6 @@
 *.exe
+*.Debug
+*.cbp
+*.layout
+*bin
+*obj
