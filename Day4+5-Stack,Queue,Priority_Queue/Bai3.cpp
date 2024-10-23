@@ -15,7 +15,7 @@ int check (string s) {
             } else {
                 char top = st.top();
                 st.pop();
-                if ((ch != ')' && top == '(') || (ch != '}' && top == '{') || (ch != ']' && top == '[')) {
+                if ((ch == ')' && top != '(') || (ch == '}' && top != '{') || (ch == ']' && top != '[')) {
                     return 0;
                 }
             }

@@ -17,7 +17,8 @@ int main() {
     for (int i = 0; i < s.size(); i++) {
         se.insert(s[i]);
         mp[s[i]]++;
-    }
+    } 
+
     int minn = INT_MAX, maxx = INT_MIN;
     char cmin = 'z', cmax = 'a';
     for (auto &p : mp) {
