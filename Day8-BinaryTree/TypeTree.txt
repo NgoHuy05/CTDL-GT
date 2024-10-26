@@ -1,0 +1,3 @@
+- full binary tree : mỗi node có 0 hoặc 2 node con
+- perfect binary tree : mỗi node có 2 node con và các lá phải cùng mức
+- complete binary tree : tất cả các lá tinh gọn về bên trái
