@@ -4,6 +4,7 @@ using namespace std;
 vector<int> ke[1001];
 bool visited[1001];
 
+//BFS
 void BFS(int u) {
     queue<int> q;
     q.push(u);

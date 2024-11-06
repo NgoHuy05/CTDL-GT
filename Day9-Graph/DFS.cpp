@@ -6,7 +6,7 @@ bool visited[1001];
 
 // DFS
 void DFS(int u) {
-    //cout << u << " ";
+    cout << u << " ";
     visited[u] = true;
     for (int v : ke[u]) {
         if (!visited[v]) {
@@ -22,17 +22,8 @@ int main() {
         ke[x].push_back(y);
         ke[y].push_back(x);
     }
-    
     memset(visited, false, sizeof(visited));
     int cnt = 0;
-
-    // Dem thanh phan lien thong
-    for (int i = 1; i <= n; i++) {
-        if (!visited[i]) {
-            DFS(i);
-            cnt++;
-        }
-    }
-    cout << cnt;
+    DFS(1);
     system("pause");
 }
